@@ -1,0 +1,86 @@
+
+#text1 {
+   padding-top: 10px;
+  padding-right: 100px;
+ padding-left: 500px;
+
+}
+p{
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 10px;
+}
+#text2 {
+   
+  padding-right: 50px;
+ bottom: 50px;
+  padding-left: 50px;
+ }
+ p{
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 10px;
+}
+#text3 {
+   padding-right: 180px;
+   padding-left: 250px;
+}
+p{
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#display{
+  display: flex;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.depense{
+  width: 350px;
+}
+.revenu{
+  width: 350px;
+  
+}
+.revenu_depense{
+  display:flex ;
+  justify-content: space-between;
+}
+.valider{
+  position: relative;
+  left: 150px;
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: green;
+}
+.div{
+  position: relative;
+  left: 150px;
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: red;
+
+}
+.Ajouter{
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: red;
+}
+.Ajouter_Revenu{
+  border: 2px solid ;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: green;
+  position: relative;
+  left: 750px;
+
+}
+

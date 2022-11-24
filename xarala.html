@@ -6,10 +6,11 @@
 	<title>Ma premiere ma page</title>
 	<link rel="stylesheet" type="text/css" href="k.css">
 
+
 </head>
 <body>
 <div>
- <fieldset>
+ <fieldset class="container">
   <div id="text1">
 	  <h3>Gestion Budget</h3>
 	</div>
@@ -22,15 +23,19 @@
      <h3>Depense</h3><br>
 	  <p>100.000CFA</p>
 </div>
-<div id="text4">
+<div class ="text4">
     <h3>Solde</h3><br>
 	  <p>20.000CFA</p><br>
 	  budget-depense=solde<br>
-	  <div class="Ajouter"> Ajouter depense</div>
+	   
+	 
 </div>
   </div>
 <table style="width:50%">
+<div class="Ajouter_depense">
  <h3>Liste des dépenses </h3>
+  <div class="Ajouter"> Ajouter depense</div>
+	</div>
  <tr>
  	<th>Titre</th>
  	<th>Montant</th>
@@ -49,8 +54,10 @@
 	
 </table>
 <table style="width:50%">
- <h3>Liste des revenus </h3>
- <div class="Ajouter_Revenu"style="width: 10%;"> Ajouter Revenu</div>
+ <div class="ajout_titre_revenu">
+ 	<h3>Liste des revenus </h3>
+    <div class="Ajouter_Revenu">Ajouter Revenu</div>
+ </div>
  <tr>
  	<th>Titre</th>
  	<th>Montant</th>
@@ -86,9 +93,10 @@
 
  </tr>
 	</table><br>
+	<div class="ajout_titre_valider"></div>
 	<div class="div"style="width: 30%;">valider</div>
 	</fieldset><br>
-<div>
+<div class="ajou_revenu">
 <fieldset class="revenu">
 <h3>Ajouter revenu</h3>
   <table style="width:45%">
@@ -105,6 +113,7 @@
 </table><br>
 <div class="valider" style="width:30%">valider</div>
 </fieldset>
+</div>
 </div>
 </div>
 </body>
